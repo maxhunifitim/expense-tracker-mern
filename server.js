@@ -8,9 +8,9 @@ const app = express();
 
 const transaction = require("./routes/transactions");
 
-app.use("/api/v1/transaction", transaction);
+app.use("/api/v1/transactions", transaction);
 
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 4000;
 
 app.listen(
   PORT,
