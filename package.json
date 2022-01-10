@@ -1,0 +1,30 @@
+{
+  "name": "expense-tracker-mern",
+  "version": "1.0.0",
+  "description": "Backend for expense tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxhunifitim/expense-tracker-mern.git"
+  },
+  "author": "Fitim Maxhuni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxhunifitim/expense-tracker-mern/issues"
+  },
+  "homepage": "https://github.com/maxhunifitim/expense-tracker-mern#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
