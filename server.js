@@ -14,6 +14,10 @@ const app = express();
 app.use(express.json());
 app.use("/api/v1/transactions", transaction);
 
+if (process.env.NODE_ENV === "development") {
+  app.use(morgan("dev"));
+}
+
 const PORT = process.env.PORT || 4000;
 
 app.listen(

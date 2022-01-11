@@ -5,7 +5,7 @@ export const IncomeExpenses = () => {
   const { transactions } = useContext(GlobalContext);
 
   const amounts = transactions.map((transaction) => transaction.amount);
-  console.log(amounts);
+  // console.log(amounts);
   let income = 0;
   let expense = 0;
 
