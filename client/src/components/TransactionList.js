@@ -7,7 +7,7 @@ export const TransactionList = () => {
   const { transactions, getTransactions } = useContext(GlobalContext);
 
   useEffect(() => {
-    // console.log("GET_TRANSACTIONS ", getTransactions());
+    console.log(transactions);
     getTransactions();
   }, []);
 
