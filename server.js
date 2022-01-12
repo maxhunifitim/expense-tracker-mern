@@ -12,6 +12,7 @@ const app = express();
 
 //body parser | to use
 app.use(express.json());
+
 app.use("/api/v1/transactions", transaction);
 
 if (process.env.NODE_ENV === "development") {
